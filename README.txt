@@ -15,3 +15,8 @@ It tells jest to look for test in any __tests__ folder AND also any files anywhe
 4. moduleFileExtensions
 
 It tells jest to recognize our file extensions. This is needed as we add ts/tsx into the defaults (js|jsx|json|node).
+
+Important Reference Links:
+
+(For Setup:)
+https://basarat.gitbooks.io/typescript/docs/testing/jest.html
