@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter Component SampleComponent Snapshot Testing 1`] = `
+Array [
+  <button
+    onClick={[Function]}
+  >
+    Increment Counter
+  </button>,
+  <button
+    onClick={[Function]}
+  >
+    Decrement Counter
+  </button>,
+  <p>
+    0
+  </p>,
+]
+`;

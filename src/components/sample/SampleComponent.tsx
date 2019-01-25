@@ -17,6 +17,7 @@ class SampleComponent extends React.Component<
     return (
       <React.Fragment>
         <button onClick={this.increaseCounter}>Increment Counter</button>
+        <button onClick={this.decreaseCounter}>Decrement Counter</button>
         <p>{this.state.counter}</p>
       </React.Fragment>
     );
@@ -24,6 +25,10 @@ class SampleComponent extends React.Component<
 
   private increaseCounter = (e: React.FormEvent<HTMLElement>) => {
     this.setState({ counter: this.state.counter + 1 });
+  };
+
+  private decreaseCounter = (e: React.FormEvent<HTMLElement>) => {
+    this.setState({ counter: this.state.counter - 1 });
   };
 }
 
